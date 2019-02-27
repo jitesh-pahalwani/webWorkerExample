@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Woker Example</title>
+  </head>
+  <body>
+    <div>
+    <div>
+      Enter a very big number (in range of billions)
+    </div>
+    <input id='numInput'/>
+    <button onClick='countOddNumbers()'>Click</button>
+    <div>There are <span id='resultNum'></span> even numbers preceding this number</div>
+  </div>
+&nbsp;
+  <div>
+  <div>
+    This button will return a random number. This button's click is not interrupted while the lengthy calculation on the above button is being carried on.
+  </div>
+  <button onClick='returnRandomNumber()'>Click</button>
+  <div>The random number returned after 5 seconds is <span id='randomNum'></span></div>
+</div>
+  </body>
+  <script src='./App.js'></script>
+</html>
