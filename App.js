@@ -10,6 +10,6 @@ var returnRandomNumber = () => {
 }
 
 randomWorker.onmessage = e => {
-  console.log('message received from worker thread');
+  console.log('message received from worker script');
   document.getElementById('resultNum').innerText = e.data;
 }
